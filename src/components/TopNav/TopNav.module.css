@@ -1,0 +1,50 @@
+.body{
+    padding-bottom: 65px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    padding: 0 16px;
+    border-bottom: solid 1px #EAEAEA;
+
+    position: fixed;
+    width: 43.5vw;
+    margin-top: 0;
+    background-color: white;
+}
+
+.roundButton{
+    border-radius: 20px;
+    background: linear-gradient(90deg, #0094FF 0%, #0046FF 114.29%);
+    padding: 10px 14px;
+
+    color: #FFF;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.circleButton{
+    width: 44px;
+    height: 44px;
+    flex-shrink: 0;
+    border-radius: 22.5px;
+    background: #EAECEF;
+
+    /* 가운데 정렬 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.rightButtonContainer{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+
+}
